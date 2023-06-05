@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:  rgb(241, 0, 0);
+}
+
+h1{
+    color: aliceblue;
+    align-items: center;
+    padding: 0.5%;
+    font-size:8em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+h2{
+    font-size: 8em;
+    justify-content: center;
+    align-items: right;
+    display: flex;
+    margin: 10%;
+    transform: rotate(20deg);
+}
+
+nav li{
+    display:inline-flex;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h3{
+    font-size: 6em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10%;
+    transform: rotate(-20deg);
+}
+
+h4{
+    font-size: 4em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10%;
+    transform: rotate(10deg);
+}
+nav a{
+    color: white;
+    display: flex;
+    font-size: 3em;
+    margin: 6em;
+    padding:0%;
+    text-align: center;
+    justify-content: center;
+}
+nav ul{
+    margin: 5%;
+    padding: 20%;
+    list-style-type: none;
+    transform: rotate(-4deg);
+}
+
+.container {
+    background-color:rgb(55, 14, 14);
+    padding: 10px 0;}
+
+.marker {
+    width: auto;
+    height: 25px;
+    margin: 0px;
+    justify-content: space-between;
+    transform: rotate(90deg)
+    }
+
+.red {
+    background: linear-gradient(40deg, rgb(241, 0, 0) 75%, rgb(246, 101, 17), rgb(234, 187, 0));}
